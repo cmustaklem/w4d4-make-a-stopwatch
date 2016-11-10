@@ -1,12 +1,13 @@
-body, button {
-  font-family: 'Courier';
-  text-align: center;
+.circle {
+   border-radius: 50%;
+   height: 500px;
+   width: 500px;
+   border: 5px solid red;
+   margin-top: 30px;
+   /*padding-top: 100px;*/
 }
-
-body {
-  background-color: orange;
-}
-
-h1 {
-  text-align: center;
+.innerCircle {
+   display: inline-block;
+   vertical-align: middle;
+   padding-top: 190px;
 }
