@@ -1,14 +1,19 @@
-.circle {
-  border-radius: 50%;
+.timer {
   height: 500px;
   width: 500px;
-  border: 5px solid red;
+  border: 5px solid white;
   margin-top: 30px;
+  padding: 30px;
   /*padding-top: 100px;*/
 }
 
-.innerCircle {
+.inTheTimer {
   display: inline-block;
   vertical-align: middle;
   padding-top: 190px;
+}
+
+#theTimer {
+  color: white;
+  background-color: black;
 }
