@@ -29,7 +29,7 @@ function btnStatus(){
 function startInterval(){
     timer = setInterval(incrementByOne, (.1 * 1000));
 }
-//Create function to start counting by increments of 1 for the tenth of seconds, then after 10, it adds 1 to the second, and once there are 60 seconds, the minute field gets incremented by one and the seconds field gets set back to 00.
+//Create function to start counting by increments of 1 for the tenth of seconds, then after 10, it adds 1 to the second, and once there are 60 seconds, the minute field gets incremented by one and the seconds field gets set back to 00. changeColor() is being invoked after every 10 milliseconds. 
 function incrementByOne(){
     _10thSecond++
     if (_10thSecond > 9) {
