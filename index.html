@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Timer</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
+  <script src="https://use.fontawesome.com/bfd4e076b7.js"></script>
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/global.css" />
 </head>
 <body>
-  <div class="container">
-   <div class="row">
-     <!-- <div class="col-md-3"></div> -->
-     <div id="timer" class="col-md-6 col-md-offset-3 text-center inTheTimer">
-          
-         <div id="theTimer">00</div>
-         <button id="start" class="btn btn-default">Start</button>
-         <!-- <button id="pause" class="btn btn-default">Pause</button> -->
-         <button id="reset" class="btn btn-default">Reset</button>
-     </div>
-       <!-- <div class="col-md-3"></div> -->
-   </div>
- </div>
+  <div class="container watchBody">
+    <div class="row watchTime">
+      <div class="col-sm-12">
+        <p id="theTimer">Time: 00:00:00</p>
+        <button id="theBtn" class="btn btn-default">Start!</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
   <script type="text/javascript" src="js/global.js"></script>
 </body>
 </html>
